@@ -1,0 +1,11 @@
+.page {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    min-width: 320px;
+    box-sizing: border-box;
+    font-family: 'Futura', Arial, sans-serif;
+    color: black;
+    background-color: white;
+
+}

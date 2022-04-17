@@ -1,0 +1,9 @@
+.menu__social-icon {
+    width: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__social-icon:hover {
+    opacity: .6;
+}

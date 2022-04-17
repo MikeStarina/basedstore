@@ -1,0 +1,15 @@
+.menu__button {
+    background-image: url(../../../images/menu_icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 25px;
+    height: 15px;
+    border: none;
+    
+}
+
+.menu__button:hover {
+    cursor: pointer;
+    opacity: .6;
+}
