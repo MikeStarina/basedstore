@@ -13,3 +13,11 @@
     margin: 0;
     margin-top: 80px;
 }
+
+@media (max-width: 700px) {
+    .footer__container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
