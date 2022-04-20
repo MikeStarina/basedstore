@@ -1,6 +1,6 @@
 .main-screen {
     width: 100%;
-    height: calc(100vh - 80px);
+    height: 100vh;
     box-sizing: border-box;
     padding:  160px;
     margin: 0 auto;
