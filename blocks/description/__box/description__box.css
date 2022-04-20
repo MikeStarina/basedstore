@@ -5,3 +5,13 @@
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 600px) {
+    .description__box {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+}
+    

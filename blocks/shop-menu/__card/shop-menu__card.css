@@ -4,9 +4,25 @@
     overflow: hidden;
     position: relative;
     border: none;
-    border-top: 2px solid black;
+    
 }
 
-.shop-menu__card:last-of-type {
-    border-bottom: 2px solid black;
+@media (max-width: 1000px) {
+    .shop-menu__card {
+        max-height: 70vh;
+    }
+}
+
+@media (max-width: 700px) {
+    .shop-menu__card {
+        max-height: 50vh;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+    .shop-menu__card {
+        max-height: 30vh;
+    }
 }
