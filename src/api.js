@@ -2,7 +2,11 @@
 
 
 
-
+const config = {
+    'Client-Id': '75295',
+    'Api-Key': '3ea47e53-0fbb-48af-9571-acd109d16798',
+    'Content-Type': 'application/json'
+}
 
 const data = {
     'filter': {
@@ -16,11 +20,7 @@ const data = {
 export const getList = () => {
     return fetch('https://api-seller.ozon.ru/v2/product/list', {
         method: 'POST',
-        headers: {
-            'Client-Id': '75295',
-            'Api-Key': '3ea47e53-0fbb-48af-9571-acd109d16798',
-            'Content-Type': 'application/json'
-        },
+        headers: config,
         body: JSON.stringify(data)
         
     })
@@ -51,11 +51,7 @@ export const getList = () => {
         
         return fetch('https://api-seller.ozon.ru/v2/product/info/list', {
             method: 'POST',
-            headers: {
-                'Client-Id': '75295',
-                'Api-Key': '3ea47e53-0fbb-48af-9571-acd109d16798',
-                'Content-Type': 'application/json'
-            },
+            headers: config,
             body: JSON.stringify(dataItem),
         }) 
     })
