@@ -1,0 +1,11 @@
+.shop {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(282px, 1fr));
+    column-gap: 20px;
+    row-gap: 75px;
+    justify-items: center;
+}

@@ -1,0 +1,29 @@
+@font-face {
+
+	src: url('fonts/FuturaPT/FuturaPT-Medium.woff') format("woff");
+
+  font-family: 'Futura';
+  font-style:  normal;
+  font-weight: 500;
+
+}
+
+@font-face {
+
+	src: url("fonts/FuturaPT/FuturaPT-Light.woff") format("woff");
+
+  font-family: 'Futura';
+  font-style: normal;
+  font-weight: 300;
+
+}
+
+@font-face {
+
+	src: url("fonts/FuturaPT/FuturaPT-Demi.woff") format("woff");
+
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  
+}
