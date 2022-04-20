@@ -1,0 +1,44 @@
+@import url(../vendors/normalize.css);
+@import url(../vendors/fonts.css);
+
+
+@import url(../blocks/page/page.css);
+
+
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/menu/__button/menu__button.css);
+@import url(../blocks/menu/__socials/menu__socials.css);
+@import url(../blocks/menu/__social-icon/menu__social-icon.css);
+
+
+@import url(../blocks/content/content.css);
+
+
+
+
+@import url(../blocks/shop/shop.css);
+@import url(../blocks/shop/__card/shop__card.css);
+@import url(../blocks/shop/__card-image/shop__card-image.css);
+@import url(../blocks/shop/__card-title/shop__card-title.css);
+@import url(../blocks/shop/__card-link/shop__card-link.css);
+
+@import url(../blocks/shop/__card-price/shop__card-price.css);
+@import url(../blocks/shop/__stock/shop__stock.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__container/footer__container.css);
