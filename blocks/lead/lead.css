@@ -1,0 +1,15 @@
+.lead {
+    box-sizing: border-box;
+    width: 100%;
+    background-image: url(../../images/IMG_3345.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

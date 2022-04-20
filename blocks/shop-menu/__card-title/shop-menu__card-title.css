@@ -1,0 +1,12 @@
+.shop-menu__card-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 53px;
+    /* identical to box height */
+
+    letter-spacing: 5%;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
